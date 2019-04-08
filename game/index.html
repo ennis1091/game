@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -6,17 +6,23 @@
 	<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
 	<style type="text/css">
 		#wp{
-			width: 21rem;
+			width: 100%;
 			margin:1rem auto 0;
+		}
+		#concent{
+			text-align:center;
 		}
 		h1{
 			padding: 0.4rem 0;
 			font-size: 0.6rem;
+			text-align:center
 		}
 		.work{
 			display: inline-block;
-			width: 5rem;
+			width: 4.5rem;
 			height: 5rem;
+		}
+		.work:first-child{
 			margin-right:0.2rem;
 		}
 		#wp .work-thumb {
@@ -47,17 +53,19 @@
 <body>
 	<div id="wp">
 		<h1>我的部分作品</h1>
-		<div class="work">
+		<div id="concent">
+			<div class="work">
 			
 				<div class="work-thumb"><a href="wawa.html"><img src="http://demo.cssmoban.com/cssthemes4/sbtp_78_homene/images/work-1.jpg"></a></div>
 				<i>移动端夹娃娃小游戏</i>
 			
-		</div>
-		<div class="work">
+			</div>
+			<div class="work">
 
 				<div class="work-thumb"><a href="shsq.html"><img src="http://demo.cssmoban.com/cssthemes4/sbtp_78_homene/images/work-1.jpg"></a></div>
 				<i>移动端双色球选购（部分完成）</i>
 
+			</div>
 		</div>
 	</div>
 </body>
