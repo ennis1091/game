@@ -1,0 +1,1 @@
+$(function(c){var i=0;$(".pic-1-u").click(function(c){if(1!=i){$("#money").val();i=1}})});
